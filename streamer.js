@@ -135,10 +135,10 @@ class Streamer {
             this.backup
 
         ]
-        if (this.backup){
-                console.log(this.backup)
-                args = args.concat(args2)
-        }
+//        if (this.backup){
+ //               console.log(this.backup)
+  //              args = args.concat(args2)
+   //     }
         console.log('FFmpeg args: ');
         console.log(args);
 
