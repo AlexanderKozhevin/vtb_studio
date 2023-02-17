@@ -14,7 +14,7 @@ RUN set -ex; apt-get update && \
           wget \
           build-essential \
           ca-certificates && \
-          curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
+          curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
           apt-get -y install --no-install-recommends \
               nodejs \
               libnss3 \
